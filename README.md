@@ -1,27 +1,14 @@
-# Project
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Below are the steps to run the project:
+1. Download the “project” folder or clone the Directory to your local computer.
+2. Make sure that the Angular CLI and Node js are installed on your system.
+    a)Node can be installed from “nodejs.org”
+    b)Angular CLI can be installed using the command
+    “npm install –g @angular/cli@latest” from terminal.
+3. change the directory to the working directory of the project.
+4.Run “npm install” to download all the dependancies.
+5.If any velnerabilities are found:
+	Run “npm audit fix”
+6.If any funding packages are found:
+	Run “npm fund”
+5.Run “ng serve –o” and find the project at
+“http://localhost:4200/”
